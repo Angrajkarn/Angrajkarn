@@ -1,0 +1,31 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch TwoArrays",
+            "request": "launch",
+            "mainClass": "TwoArrays",
+            "projectName": "Angrajkarn_f0426314"
+        },
+        {
+            "type": "java",
+            "name": "Launch arrays",
+            "request": "launch",
+            "mainClass": "arrays",
+            "projectName": "Angrajkarn_f0426314"
+        },
+        {
+            "type": "java",
+            "name": "Launch Arrays",
+            "request": "launch",
+            "mainClass": "Arrays",
+            "projectName": "Angrajkarn_f0426314"
+        },
+        {
+            "type": "node",
+            "request": "lunch",
+            "name": "Lunch program",
+            "program": "${workspaceFolder}/app.js"
+        }
+    ]
+}
