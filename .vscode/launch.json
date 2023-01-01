@@ -1,31 +1,64 @@
 {
-    "configurations": [
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "Angrajkarn_f0426314"
+    },
+    {
+      "type": "java",
+      "name": "Launch main",
+      "request": "launch",
+      "mainClass": "main",
+      "projectName": "Angrajkarn_f0426314"
+    },
+    {
+      "type": "java",
+      "name": "Launch recursion6",
+      "request": "launch",
+      "mainClass": "recursion6",
+      "projectName": "Angrajkarn_f0426314"
+    },
+    {
+      "type": "java",
+      "name": "Launch recursion4",
+      "request": "launch",
+      "mainClass": "recursion4",
+      "projectName": "Angrajkarn_f0426314"
+    },
+    {
+      "type": "java",
+      "name": "Launch recursion1",
+      "request": "launch",
+      "mainClass": "recursion1",
+      "projectName": "Angrajkarn_f0426314"
+    },
+    {
+      "type": "node",
+      "request": "lunch",
+      "name": "Lunch program",
+      "program": "${workspaceFolder}/app.js"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Nivedita/Documents/GitHub/Angrajkarn",
+      "program": "c:/Users/Nivedita/Documents/GitHub/Angrajkarn/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
         {
-            "type": "java",
-            "name": "Launch TwoArrays",
-            "request": "launch",
-            "mainClass": "TwoArrays",
-            "projectName": "Angrajkarn_f0426314"
-        },
-        {
-            "type": "java",
-            "name": "Launch arrays",
-            "request": "launch",
-            "mainClass": "arrays",
-            "projectName": "Angrajkarn_f0426314"
-        },
-        {
-            "type": "java",
-            "name": "Launch Arrays",
-            "request": "launch",
-            "mainClass": "Arrays",
-            "projectName": "Angrajkarn_f0426314"
-        },
-        {
-            "type": "node",
-            "request": "lunch",
-            "name": "Lunch program",
-            "program": "${workspaceFolder}/app.js"
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
         }
-    ]
+      ]
+    }
+  ]
 }
