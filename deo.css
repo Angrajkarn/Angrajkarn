@@ -1,0 +1,14 @@
+h1 {
+    background-color: blue;
+    color: azure;
+    text-align: center;
+    font-size: 200px;
+}
+
+div {
+    border: 2px solid forestgreen;
+    outline: #9d9d9d;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}

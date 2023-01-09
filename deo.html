@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <link rel="stylesheet" href="deo.css" <style> body { background-color: tomato; }
+    </style>
+    <h1>HTML forma</h1>
+    <form action="/action_page.php" target="_blank" method="get">
+        <fieldset>
+            <legend>persinalise</legend>
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="fname" value="karn">
+            <br>
+            <label for="lname"> Last Name</label><br>
+            <input type="text" id="lname" name="lname" value="deo"><br>
+            <br>
+            <input type="submit" value="submit">
+        </fieldset>
+    </form>
+    <h2>Radio Button</h2>
+    <p> chhose your favorite language for web browser</p>
+    <form>
+        <input type="radio" id="HTML" name="fav_language" value="html">
+        <label for="html">HTML</label>
+        <br>
+        <input type="radio" id="css" name="fav_language " value="css">
+        <label for="CSS">CSS</label><br>
+        <input type="radio" id="javascipt" name="fav_language" value="javascipt">
+        <label for="JAVASCRIPT">JAVASCRIPT</label><br>
+        <input type="submit" value="submit"><br>
+    </form>
+    <h1>
+        checkBox format
+    </h1>
+    <p> The
+        <strong>input type="checkbox"</strong> define a check box</p>
+    <form action="/action_page.php" target="self">
+        <input type="checkbox" id="vehicle1 " name="vehicle1 " value="car ">
+        <label for="vehicle1">i have a car</label><br>
+        <input type="checkbox" id="vehicle2 " name="vehicle2 " value="motorbike">
+        <label for="vehicle2">i have a motorcycle</label><br>
+        <input type="checkbox" id="vehicle3 " name="vehicle3 " value="boat ">
+        <label for="vehicle3">i have a boat</label>
+        <br><br>
+        <input type="submit " value="submit ">
+    </form>
+
+    <h1> the select element</h1>
+    <form action="/action_page.php">
+        <label for="cars">choose a  car</label>
+        <select id="cars" value="cars" size="2" multiple>
+            <option value="volvo">volvo</option>
+            <option value="bmw">bmw</option>
+            <option value="jagiar" selected>jaguar</option>
+            <option value="honda">honda</option>
+        </select>
+        <input type="submit">
+    </form>
+    <h1>text area</h1>
+    <form action="/action_page.html">
+        <textarea name="massage" style="width:200px; height: 600px;">the cat was playing in the garden</textarea>
+        <br><br>
+        <input type="submit">
+    </form>
+    <h1> The button element </h1>
+    <button type="button" onclick="alert('hello karn deo')">click me </button>
+
+    <h2>the detalist element</h2>
+    <form action="/action_page.php">
+        <input list="browser" name="browser">
+        <datalist id="browser">
+        <option value="enternet explore">
+        <option value="chrome">
+        <option value="safari">
+        <option value="opera">
+        <option value="firefox">
+            
+    </datalist>
+
+        <input type="submit">
+    </form>
+    <h1>password</h1>
+    <form action="/action_page.php">
+        <label for="username">username</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <input type="submit" value="submit">
+        <input type="reset">
+    </form>
+    <h1> local birthday time</h1>
+    <form action="/action_page.php">
+        <label for="birthday">birthay date and time</label><br>
+        <input type="datetime-local" id="birthday" name="birthday">
+        <input type="submit" valur="submit">
+    </form>
+    <h1> file tag</h1>
+    <form action="/action_page.php">
+        <label for="myfile">submit your file</label>
+        <input type="file" id="myfile" name="myfile"><br><br>
+        <input type="submit" value="submit"></form>
+</body>
+
+</html>
